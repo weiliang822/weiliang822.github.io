@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(conda run -n base python _write_about.py)"
-    ],
-    "deny": [],
-    "ask": []
-  }
-}

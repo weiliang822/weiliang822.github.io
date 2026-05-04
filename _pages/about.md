@@ -21,29 +21,35 @@ My research interests lie in **LLM post-training**, **knowledge distillation**, 
 
 - **A Unified Approach to Interpreting Knowledge Distillation for Large Language Models via Interactions**  
   **Qingzhuo Wang**\*, Ruiyang Qin\*, Zhenxin Qin, Wen Shen, Zhihua Wei  
-  *ICML 2026*
+  *ICML 2026*  
+  <small>TL;DR: We use Shapley interactions to decompose KD losses (KLD, RKL, JSD, TVD) into interpretable token interaction components, revealing how each objective transfers knowledge at different complexity levels.</small>
 
 - **Multilingual Safety Alignment via Self-Distillation**  
   Ruiyang Qin\*, **Qingzhuo Wang**\*, Dongrui Liu, Qiang Li, Zhihua Wei, Wen Shen  
-  *arXiv 2026*
+  *arXiv 2026*  
+  <small>TL;DR: We distill safety capabilities from high-resource languages into low-resource ones using the model's own representations, achieving cross-lingual safety transfer without external multilingual data.</small>
 
 - **TME-PSR: Time-aware, Multi-interest, and Explanation Personalization for Sequential Recommendation**  
   **Qingzhuo Wang**, Leilei Wen, Juntao Chen, Kunyu Peng, Ruiyang Qin, Zhihua Wei, Wen Shen  
-  *arXiv 2026* &nbsp; [\[arXiv\]](https://arxiv.org/abs/2604.09439)
+  *arXiv 2026* &nbsp; [\[arXiv\]](https://arxiv.org/abs/2604.09439)  
+  <small>TL;DR: A unified sequential recommendation framework that jointly models temporal dynamics, multi-interest disentanglement, and personalized natural language explanations.</small>
 
 ### Co-Author
 
 - **Evaluating and Explaining Prompt Sensitivity of LLMs Using Interactions**  
   Ruiyang Qin, **Qingzhuo Wang**, Tian Wang, Zhihua Wei, Wen Shen  
-  *ICML 2026*
+  *ICML 2026*  
+  <small>TL;DR: We apply Shapley interactions to quantify and explain why semantically equivalent prompts yield different LLM outputs, providing actionable guidance for prompt engineering.</small>
 
 - **Mitigating Action-Relation Hallucinations in LVLMs via Relation-aware Visual Enhancement**  
   Zhenxin Qin, Qiang Li, **Qingzhuo Wang**, Ruiyang Qin, Zhihua Wei, Wen Shen  
-  *ACL 2026*
+  *ACL 2026*  
+  <small>TL;DR: We identify action-relation hallucination as a distinct failure mode in LVLMs and propose a relation-aware visual enhancement framework with contrastive learning to ground relational descriptions.</small>
 
 - **Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift**  
   Zhihua Wei, Qiang Li, Jian Ruan, Zhenxin Qin, Leilei Wen, Ruiyang Qin, **Qingzhuo Wang**, Dongrui Liu, Wen Shen  
-  *arXiv 2026* &nbsp; [\[arXiv\]](https://arxiv.org/abs/2603.17372)
+  *arXiv 2026* &nbsp; [\[arXiv\]](https://arxiv.org/abs/2603.17372)  
+  <small>TL;DR: We reveal that VLM jailbreaks induce predictable representation shifts away from safety-aligned regions, and propose a plug-in defense that detects and corrects these shifts in real time.</small>
 
 ---
 
