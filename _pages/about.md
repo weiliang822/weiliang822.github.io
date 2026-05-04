@@ -55,7 +55,7 @@ My research interests lie in **LLM post-training**, **knowledge distillation**, 
 
 ## Internships
 
-**Winboa Investment** &mdash; Quantitative Researcher &nbsp; *Mar. 2025 &ndash; Sep. 2025*
+**WeQuant** &mdash; Quant Researcher &nbsp; *Mar. 2025 &ndash; Sep. 2025*
 
 - Independently led the full lifecycle of a low-frequency Alpha strategy, covering data ingestion, preprocessing, factor construction, model training, backtesting, and live deployment.
 - Built a reusable live-trading framework to handle the long strategy pipeline and ensure stability; the strategy ran continuously from Jun. to Oct. 2025.
