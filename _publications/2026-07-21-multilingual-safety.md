@@ -1,10 +1,10 @@
 ---
 title: "Multilingual Safety Alignment via Self-Distillation"
 collection: publications
-category: manuscripts
+category: first-author
 permalink: /publication/2026-07-21-multilingual-safety
 excerpt: 'We propose an on-policy self-distillation method for multilingual safety alignment, transferring the model''s own safety capabilities from high-resource to low-resource languages without reliance on human-annotated safety data.'
-date: 2026-07-21
+date: 2026-06-01
 venue: 'arXiv 2026'
 paperurl: 'https://arxiv.org/abs/2605.02971'
 citation: 'Ruiyang Qin*, Qingzhuo Wang*, Dongrui Liu, Qiang Li, Zhihua Wei, Wen Shen. (2026). &quot;Multilingual Safety Alignment via Self-Distillation.&quot; <i>arXiv 2026</i>.'

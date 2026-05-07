@@ -1,7 +1,7 @@
 ---
 title: "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift"
 collection: publications
-category: manuscripts
+category: co-author
 permalink: /publication/2026-03-21-vlm-jailbreak
 excerpt: 'We show that VLM jailbreaks are not perception failures but distinct internal states driven by image-induced representation shifts, and propose JRS-Rem to remove these shifts at inference time.'
 date: 2026-03-21

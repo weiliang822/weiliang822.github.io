@@ -1,10 +1,10 @@
 ---
 title: "Mitigating Action-Relation Hallucinations in LVLMs via Relation-aware Visual Enhancement"
 collection: publications
-category: conferences
+category: co-author
 permalink: /publication/2026-07-21-action-relation-hallucination
 excerpt: 'We define the ARS score to locate action-relation-sensitive attention heads, and propose RVE, a training-free method that enhances attention to action-relevant image regions to mitigate action-relation hallucinations in LVLMs.'
-date: 2026-07-21
+date: 2026-06-01
 venue: 'ACL 2026'
 citation: 'Zhenxin Qin, Qiang Li, Qingzhuo Wang, Ruiyang Qin, Zhihua Wei, Wen Shen. (2026). &quot;Mitigating Action-Relation Hallucinations in LVLMs via Relation-aware Visual Enhancement.&quot; <i>ACL 2026</i>.'
 ---

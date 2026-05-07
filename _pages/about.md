@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I am a first-year M.S. student in Computer Science and Technology at [Tongji University](https://www.tongji.edu.cn), supervised by Associate Professor [Wen Shen](https://faculty.tongji.edu.cn/shenwen) and Professor [Zhihua Wei](https://see.tongji.edu.cn/info/1153/9668.htm). I received my B.Eng. in Computer Science and Technology from Tongji University in 2025.
+I am a first-year M.S. student in Computer Science and Technology at [Tongji University](https://www.tongji.edu.cn), supervised by Associate Professor [Wen Shen](https://tongji.teacher.360eol.com/teacherBasic/preview?teacherId=30173) and Professor [Zhihua Wei](https://tongji.teacher.360eol.com/teacherBasic/preview?teacherType=&teacherId=13253). I received my B.Eng. in Computer Science and Technology from Tongji University in 2025.
 
 My research interests lie in **LLM post-training**, **knowledge distillation**, and **agentic reinforcement learning**.
 

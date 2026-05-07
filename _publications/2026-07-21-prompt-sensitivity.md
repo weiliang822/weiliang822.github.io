@@ -1,7 +1,7 @@
 ---
 title: "Evaluating and Explaining Prompt Sensitivity of LLMs Using Interactions"
 collection: publications
-category: conferences
+category: co-author
 permalink: /publication/2026-07-21-prompt-sensitivity
 excerpt: 'We introduce game-theoretic interactions to fine-grainedly analyze prompt sensitivity of LLMs, proposing the IPS metric and uncovering that factors like SFT and scale reduce sensitivity by stabilizing low-order interactions.'
 date: 2026-07-21

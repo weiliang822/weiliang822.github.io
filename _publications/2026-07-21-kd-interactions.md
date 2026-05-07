@@ -1,7 +1,7 @@
 ---
 title: "A Unified Approach to Interpreting Knowledge Distillation for Large Language Models via Interactions"
 collection: publications
-category: conferences
+category: first-author
 permalink: /publication/2026-07-21-kd-interactions
 excerpt: 'We interpret knowledge distillation from a game-theoretic interaction perspective, revealing that the essence of distillation is the sparsification of interactions, and propose the CIP loss to explicitly enforce this mechanism.'
 date: 2026-07-21
