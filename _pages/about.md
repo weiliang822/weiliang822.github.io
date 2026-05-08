@@ -57,9 +57,9 @@ My research interests lie in **LLM post-training**, **knowledge distillation**, 
 
 **WeQuant** &mdash; Quant Researcher &nbsp; *Mar. 2025 &ndash; Sep. 2025*
 
-- Independently led the full lifecycle of a low-frequency Alpha strategy, covering data ingestion, preprocessing, factor construction, model training, backtesting, and live deployment.
-- Built a reusable live-trading framework to handle the long strategy pipeline and ensure stability; the strategy ran continuously from Jun. to Oct. 2025.
-- Achieved strong live performance: **rankIC 0.18**, annualized return **20%**, max drawdown **5%**, Sharpe ratio **2.0**.
+- Independently led the full lifecycle of a low-frequency A-share Alpha strategy, covering data ingestion/cleaning, label construction, factor engineering, model training & prediction, and order-generation backtesting.
+- Built multi-source factors (high-frequency aggregation, low-frequency price-volume, Wind, fundamentals, and risk-style), performed missing/lagged data repair, future-data auditing, correlation & volatility screening, and improved model stability via sample weighting, clip-scale, and early stopping. Backtest **rankIC 0.18**.
+- Built a reusable live-trading framework; the strategy ran continuously from Jun. to Oct. 2025. Live performance: **cumulative return 26.5%, cumulative excess 6.1%, max drawdown 6.6%, Sharpe 3.7, IR 1.07**.
 
 **Bilibili** &mdash; Algorithm Engineer &nbsp; *Jul. 2024 &ndash; Dec. 2024*
 
