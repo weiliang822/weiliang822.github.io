@@ -6,6 +6,7 @@ permalink: /publication/2026-07-21-kd-interactions
 excerpt: 'We interpret knowledge distillation from a game-theoretic interaction perspective, revealing that the essence of distillation is the sparsification of interactions, and propose the CIP loss to explicitly enforce this mechanism.'
 date: 2026-07-21
 venue: 'ICML 2026'
+paperurl: 'https://icml.cc/virtual/2026/poster/65719'
 citation: 'Qingzhuo Wang*, Ruiyang Qin*, Zhenxin Qin, Wen Shen, Zhihua Wei. (2026). &quot;A Unified Approach to Interpreting Knowledge Distillation for Large Language Models via Interactions.&quot; <i>ICML 2026</i>.'
 ---
 

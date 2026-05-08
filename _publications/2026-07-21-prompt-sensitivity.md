@@ -6,6 +6,7 @@ permalink: /publication/2026-07-21-prompt-sensitivity
 excerpt: 'We introduce game-theoretic interactions to fine-grainedly analyze prompt sensitivity of LLMs, proposing the IPS metric and uncovering that factors like SFT and scale reduce sensitivity by stabilizing low-order interactions.'
 date: 2026-07-21
 venue: 'ICML 2026'
+paperurl: 'https://icml.cc/virtual/2026/poster/65089'
 citation: 'Ruiyang Qin, Qingzhuo Wang, Tian Wang, Zhihua Wei, Wen Shen. (2026). &quot;Evaluating and Explaining Prompt Sensitivity of LLMs Using Interactions.&quot; <i>ICML 2026</i>.'
 ---
 
