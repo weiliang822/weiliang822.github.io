@@ -43,7 +43,7 @@ My research interests lie in **LLM post-training**, **knowledge distillation**, 
 
 - **Mitigating Action-Relation Hallucinations in LVLMs via Relation-aware Visual Enhancement**  
   Zhenxin Qin, Qiang Li, **Qingzhuo Wang**, Ruiyang Qin, Zhihua Wei, Wen Shen  
-  *ACL 2026*  
+  *ACL 2026* &nbsp; [\[URL\]](https://arxiv.org/pdf/2605.11808)  
   <small>TL;DR: We define the Action-Relation Sensitivity (ARS) score to locate attention heads sensitive to action-relation changes, and propose Relation-aware Visual Enhancement (RVE), a training-free method that enhances attention to action-relevant image regions to mitigate action-relation hallucinations.</small>
 
 - **Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift**  
