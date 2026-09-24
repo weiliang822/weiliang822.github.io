@@ -21,6 +21,8 @@ package-lock.json
 .claude/
 # Ignore files created by MacOS
 .DS_Store
-papers/*
+# Keep local paper manuscripts out of version control.
+/papers/
+/paper/
 
 resume-zh_CN.pdf

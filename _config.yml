@@ -185,6 +185,8 @@ exclude:
   - log
   - node_modules
   - package.json*
+  - paper
+  - papers
   - Rakefile
   - README
   - tmp

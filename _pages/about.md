@@ -22,34 +22,39 @@ My research interests lie in **LLM post-training**, **knowledge distillation**, 
 - **A Unified Approach to Interpreting Knowledge Distillation for Large Language Models via Interactions**  
   **Qingzhuo Wang**\*, Ruiyang Qin\*, Zhenxin Qin, Wen Shen, Zhihua Wei  
   *ICML 2026*   &nbsp; [\[URL\]](https://icml.cc/virtual/2026/poster/65719)  
-  <small>TL;DR: We interpret KD from a game-theoretic interaction perspective, revealing that the essence of distillation is the sparsification of interactions — student models selectively inherit salient simple interactions from teachers while compressing complex ones. We further propose the CIP loss to explicitly enforce this sparsification.</small>
+  <small>TL;DR: We identify interaction sparsification as a common pattern across knowledge distillation methods. Complex Interaction Penalty (CIP) explicitly promotes sparsity in complex interactions and improves distillation performance.</small>
 
 - **Multilingual Safety Alignment via Self-Distillation**  
   Ruiyang Qin\*, **Qingzhuo Wang**\*, Dongrui Liu, Qiang Li, Zhihua Wei, Wen Shen  
-  *arXiv 2026* &nbsp; [\[URL\]](https://arxiv.org/abs/2605.02971)  
-  <small>TL;DR: We propose an on-policy self-distillation method that transfers the model's own safety capabilities from high-resource languages to low-resource ones, eliminating the dependency on high-quality human-annotated safety data while improving both in-distribution and out-of-distribution multilingual safety.</small>
+  *NeurIPS 2026* &nbsp; [\[URL\]](https://arxiv.org/abs/2605.02971)  
+  <small>TL;DR: Multilingual Self-Distillation (MSD) transfers safety from high-resource to low-resource languages using multilingual queries without external response data. It supports on-policy and off-policy training, with Dual-Perspective Safety Weighting (DPSW) emphasizing safety-critical tokens.</small>
 
 - **TME-PSR: Time-aware, Multi-interest, and Explanation Personalization for Sequential Recommendation**  
   **Qingzhuo Wang**, Leilei Wen, Juntao Chen, Kunyu Peng, Ruiyang Qin, Zhihua Wei, Wen Shen  
   *arXiv 2026* &nbsp; [\[URL\]](https://arxiv.org/abs/2604.09439)  
-  <small>TL;DR: A unified framework that simultaneously introduces time-aware personalization, multi-interest modeling, and explanation personalization into sequential recommendation, addressing the lack of comprehensive personalization in existing methods.</small>
+  <small>TL;DR: TME-PSR jointly models individual temporal rhythms, fine-grained interests, and personalized alignment between recommendations and explanations. It improves recommendation accuracy and explanation quality with lower computational cost on the evaluated datasets.</small>
 
 ### Co-Author
+
+- **Bridging the Gap Between Harmfulness Belief and Refusal Behavior for Safety Alignment**  
+  Lu Zhang, Chen Feng, **Qingzhuo Wang**, Wen Shen, Zhihua Wei  
+  *NeurIPS 2026* &nbsp; [\[Details\]](/publication/2026-09-25-bridging-harmfulness-refusal)  
+  <small>TL;DR: Bridging Harmfulness and Refusal (BHR) trains a LoRA adapter to carry harmfulness information from the instruction to the response-start position. Belief and belief-gated refusal losses improve jailbreak robustness while limiting over-refusal and preserving general capabilities.</small>
 
 - **Evaluating and Explaining Prompt Sensitivity of LLMs Using Interactions**  
   Ruiyang Qin, **Qingzhuo Wang**, Tian Wang, Zhihua Wei, Wen Shen  
   *ICML 2026* &nbsp; [\[URL\]](https://icml.cc/virtual/2026/poster/65089)  
-  <small>TL;DR: We introduce game-theoretic interactions as a fine-grained tool to analyze prompt sensitivity, proposing the IPS metric and revealing that even when outputs stay the same, most internal interactions are unstable — and that factors like SFT and scale reduce sensitivity by stabilizing low-order interactions.</small>
+  <small>TL;DR: Interaction-based Prompt Sensitivity (IPS) reveals changes in LLM inference patterns that output-level metrics miss. Across 50 models, supervised fine-tuning, larger scale, dense architectures, and few-shot learning primarily stabilize low-order interactions.</small>
 
 - **Mitigating Action-Relation Hallucinations in LVLMs via Relation-aware Visual Enhancement**  
   Zhenxin Qin, Qiang Li, **Qingzhuo Wang**, Ruiyang Qin, Zhihua Wei, Wen Shen  
-  *ACL 2026* &nbsp; [\[URL\]](https://arxiv.org/pdf/2605.11808)  
-  <small>TL;DR: We define the Action-Relation Sensitivity (ARS) score to locate attention heads sensitive to action-relation changes, and propose Relation-aware Visual Enhancement (RVE), a training-free method that enhances attention to action-relevant image regions to mitigate action-relation hallucinations.</small>
+  *ACL 2026* &nbsp; [\[URL\]](https://arxiv.org/abs/2605.11808)  
+  <small>TL;DR: Action-Relation Sensitivity (ARS) identifies attention heads that localize action-relevant image regions. Relation-aware Visual Enhancement (RVE) boosts attention to these regions without additional training, reducing action-relation hallucinations with negligible inference overhead.</small>
 
 - **Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift**  
   Zhihua Wei, Qiang Li, Jian Ruan, Zhenxin Qin, Leilei Wen, Ruiyang Qin, **Qingzhuo Wang**, Dongrui Liu, Wen Shen  
-  *arXiv 2026* &nbsp; [\[URL\]](https://arxiv.org/abs/2603.17372)  
-  <small>TL;DR: We show that VLMs recognize harmful intent but enter a distinct jailbreak state rather than refusing, driven by a jailbreak-related representation shift induced by visual inputs. We propose JRS-Rem, a training-free defense that removes this shift at inference time.</small>
+  *NeurIPS 2026* &nbsp; [\[URL\]](https://arxiv.org/abs/2603.17372)  
+  <small>TL;DR: For explicitly harmful inputs, VLMs can distinguish harmfulness yet shift into a distinct jailbreak state when images are added. JRS-Rem removes the jailbreak-related component of this representation shift at inference time to improve safety.</small>
 
 ---
 

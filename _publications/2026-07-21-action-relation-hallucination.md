@@ -3,11 +3,13 @@ title: "Mitigating Action-Relation Hallucinations in LVLMs via Relation-aware Vi
 collection: publications
 category: co-author
 permalink: /publication/2026-07-21-action-relation-hallucination
-excerpt: 'We define the ARS score to locate action-relation-sensitive attention heads, and propose RVE, a training-free method that enhances attention to action-relevant image regions to mitigate action-relation hallucinations in LVLMs.'
+excerpt: 'Action-Relation Sensitivity (ARS) identifies attention heads that localize action-relevant image regions. Relation-aware Visual Enhancement (RVE) boosts attention to these regions without additional training, reducing action-relation hallucinations with negligible inference overhead.'
 date: 2026-06-01
 venue: 'ACL 2026'
-paperurl: 'https://arxiv.org/pdf/2605.11808'
+paperurl: 'https://arxiv.org/abs/2605.11808'
 citation: 'Zhenxin Qin, Qiang Li, Qingzhuo Wang, Ruiyang Qin, Zhihua Wei, Wen Shen. (2026). &quot;Mitigating Action-Relation Hallucinations in LVLMs via Relation-aware Visual Enhancement.&quot; <i>ACL 2026</i>.'
 ---
 
-Large vision-language models (LVLMs) suffer from action-relation hallucinations—incorrectly describing interactions between objects (e.g., "riding" vs. "pushing" a bicycle). Unlike object hallucinations that have been widely studied, action-relation hallucinations involve complex inter-object interactions and remain underexplored. We observe that the primary cause is the insufficient attention allocated to visual information: image tokens receive disproportionately low attention (10–100x less) compared to text tokens. To address this, we define the **Action-Relation Sensitivity (ARS)** score to quantify how sensitive each attention head is to action-relation changes, revealing that middle layers are most sensitive. We then propose **Relation-aware Visual Enhancement (RVE)**, a training-free method that enhances middle layers' attention toward action-relevant image regions identified by high-ARS heads, while constructing a denoising mask from low-ARS heads to suppress background noise. Extensive experiments demonstrate that RVE effectively mitigates action-relation hallucinations with negligible additional inference cost, while generalizing to spatial-relation and object hallucinations.
+Action-relation hallucinations occur when large vision-language models incorrectly describe interactions between objects, such as confusing pushing a bicycle with riding it. Our analysis links these errors to insufficient attention to visual information. **Action-Relation Sensitivity (ARS)** measures how attention heads respond to action-relation changes, identifying heads that localize relevant image regions.
+
+**Relation-aware Visual Enhancement (RVE)** increases attention to these regions in the middle layers without additional training. It combines an enhancement mask derived from sensitive heads with a denoising mask derived from insensitive heads to avoid amplifying background noise. Experiments show reduced action-relation hallucinations with negligible additional inference cost, with benefits extending to spatial-relation and object hallucinations.

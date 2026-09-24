@@ -3,11 +3,13 @@ title: "Multilingual Safety Alignment via Self-Distillation"
 collection: publications
 category: first-author
 permalink: /publication/2026-07-21-multilingual-safety
-excerpt: 'We propose an on-policy self-distillation method for multilingual safety alignment, transferring the model''s own safety capabilities from high-resource to low-resource languages without reliance on human-annotated safety data.'
+excerpt: 'Multilingual Self-Distillation (MSD) transfers safety from high-resource to low-resource languages using multilingual queries without external response data. It supports on-policy and off-policy training, with Dual-Perspective Safety Weighting (DPSW) emphasizing safety-critical tokens.'
 date: 2026-06-01
-venue: 'arXiv 2026'
+venue: 'NeurIPS 2026'
 paperurl: 'https://arxiv.org/abs/2605.02971'
-citation: 'Ruiyang Qin*, Qingzhuo Wang*, Dongrui Liu, Qiang Li, Zhihua Wei, Wen Shen. (2026). &quot;Multilingual Safety Alignment via Self-Distillation.&quot; <i>arXiv 2026</i>.'
+citation: 'Ruiyang Qin*, Qingzhuo Wang*, Dongrui Liu, Qiang Li, Zhihua Wei, Wen Shen. (2026). &quot;Multilingual Safety Alignment via Self-Distillation.&quot; <i>NeurIPS 2026</i>.'
 ---
 
-Safety alignment of LLMs is predominantly conducted in English, leaving low-resource languages significantly under-aligned and vulnerable to harmful outputs. Traditional approaches rely heavily on high-quality human-annotated safety response data in each target language, which is expensive and hard to scale. This paper proposes an on-policy self-distillation method that transfers the model's own safety capabilities from high-resource languages to low-resource ones. By leveraging the model's existing safety knowledge in well-aligned languages as the distillation source, our approach eliminates the dependency on external multilingual safety data. Experiments across multiple models and diverse multilingual scenarios demonstrate significant improvements in both in-distribution and out-of-distribution language safety, while preserving the model's general reasoning capabilities.
+**Multilingual Self-Distillation (MSD)** transfers an LLM's existing safety capabilities from high-resource languages to low-resource languages. It uses multilingual queries without requiring external response data in any language. The framework supports both **on-policy and off-policy self-distillation**, using student-sampled and teacher-sampled responses, respectively.
+
+We introduce **Dual-Perspective Safety Weighting (DPSW)** to adapt the distillation objective at the token level. DPSW uses teacher and student confidence to increase the weights of safety-critical tokens and reduce those of non-critical tokens. Experiments on multilingual jailbreak and utility benchmarks show improved safety, including transfer to unseen languages and more challenging datasets, while preserving general capabilities.
