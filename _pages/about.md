@@ -19,6 +19,11 @@ My research interests lie in **LLM post-training**, **knowledge distillation**, 
 
 ### First-Author
 
+- **AlphaDiverse: Post-Training Local Quantitative Research Agents for Diverse Exploration in Alpha Factor Mining** <small>(Work done during an internship at Shanghai Non-convex Intelligent Technology.)</small>  
+  **Qingzhuo Wang**, Zikun Wei, Zhihua Wei, Wen Shen  
+  *arXiv 2026* &nbsp; [\[URL\]](https://arxiv.org/abs/2609.29014)  
+  <small>TL;DR: AlphaDiverse post-trains local Planner and Realizer agents with diverse research traces, supervised fine-tuning, and joint GRPO. Across four Chinese stock universes, it combines competitive prediction with broader exploration in alpha factor mining.</small>
+
 - **A Unified Approach to Interpreting Knowledge Distillation for Large Language Models via Interactions**  
   **Qingzhuo Wang**\*, Ruiyang Qin\*, Zhenxin Qin, Wen Shen, Zhihua Wei  
   *ICML 2026*   &nbsp; [\[URL\]](https://icml.cc/virtual/2026/poster/65719)  
