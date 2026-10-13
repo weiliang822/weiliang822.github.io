@@ -21,7 +21,7 @@ My research interests lie in **LLM post-training**, **Quantitative Research**, a
 
 - **AlphaDiverse: Post-Training Local Quantitative Research Agents for Diverse Exploration in Alpha Factor Mining** <small>(Work done during an internship at Shanghai Non-convex Intelligent Technology.)</small>  
   **Qingzhuo Wang**, Zikun Wei, Zhihua Wei, Wen Shen  
-  *arXiv 2026* &nbsp; [\[URL\]](https://arxiv.org/abs/2609.29014)  
+  *arXiv 2026* &nbsp; [\[URL\]](https://github.com/FTShare-Lab/AlphaDiverse)  
   <small>TL;DR: AlphaDiverse post-trains local Planner and Realizer agents with diverse research traces, supervised fine-tuning, and joint GRPO. Across four Chinese stock universes, it combines competitive prediction with broader exploration in alpha factor mining.</small>
 
 - **Authorization Closure Graph: Minimal Repair for LLM Agents with Evolving User Instructions**  
