@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I am a first-year M.S. student in Computer Science and Technology at [Tongji University](https://www.tongji.edu.cn), supervised by Associate Professor [Wen Shen](https://tongji.teacher.360eol.com/teacherBasic/preview?teacherId=30173) and Professor [Zhihua Wei](https://tongji.teacher.360eol.com/teacherBasic/preview?teacherType=&teacherId=13253). I received my B.Eng. in Computer Science and Technology from Tongji University in 2025.
+I am a second-year M.S. student in Computer Science and Technology at [Tongji University](https://www.tongji.edu.cn), supervised by Associate Professor [Wen Shen](https://tongji.teacher.360eol.com/teacherBasic/preview?teacherId=30173) and Professor [Zhihua Wei](https://tongji.teacher.360eol.com/teacherBasic/preview?teacherType=&teacherId=13253). I received my B.Eng. in Computer Science and Technology from Tongji University in 2025.
 
 My research interests lie in **LLM post-training**, **Quantitative Research**, and **agentic reinforcement learning**.
 
@@ -60,7 +60,7 @@ My research interests lie in **LLM post-training**, **Quantitative Research**, a
 
 ## Internships
 
-**Shanghai Non-convex Intelligent Technology** &nbsp; *Jun. 2026 &ndash; Present*
+**Shanghai Non-convex Intelligent Technology** &mdash; Quant Researcher &nbsp; *Jun. 2026 &ndash; Present*
 
 Developed **AlphaDiverse**, a multi-agent framework for alpha factor mining. Collected diverse research trajectories and post-trained local research agents with supervised fine-tuning and joint reinforcement learning to improve predictive performance and exploration diversity.
 
